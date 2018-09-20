@@ -1,6 +1,7 @@
 sudo: false
 language: node_js
 addons:
+  chrome: stable
   sauce_connect: true
 node_js:
  - 4 # to be removed 2018-04-30
